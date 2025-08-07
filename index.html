@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriveBrite - Headlight & DRL Restoration Experts</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e40af',
+                        secondary: '#f59e0b'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gallery-grid {
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .step-card {
+            transition: all 0.3s ease;
+        }
+        .step-card:hover {
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-primary text-white py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-car text-2xl text-secondary"></i>
+                <h1 class="text-2xl font-bold">DriveBrite</h1>
+            </div>
+            <div class="hidden md:block">
+                <span class="bg-secondary text-primary px-3 py-1 rounded-full text-sm font-bold">Headlight & DRL Experts</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-900 to-primary text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">Restore Your Headlights,<br>Regain Your Safety</h2>
+                <p class="text-xl mb-8 opacity-90">Professional headlight restoration and DRL repair services. We come to you!</p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <button class="bg-secondary text-primary font-bold py-3 px-8 rounded-lg hover:bg-yellow-500 transition duration-300">
+                        Book Now
+                    </button>
+                    <button class="bg-white text-primary font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition duration-300">
+                        <i class="fab fa-whatsapp mr-2"></i> Chat on WhatsApp
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">How DriveBrite Works</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="step-card bg-gray-50 p-8 rounded-xl text-center border border-gray-100">
+                    <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-6">1</div>
+                    <h3 class="text-xl font-bold mb-4">Book Your Service</h3>
+                    <p class="text-gray-600">Fill our simple form with your car details and preferred service</p>
+                </div>
+                <div class="step-card bg-gray-50 p-8 rounded-xl text-center border border-gray-100">
+                    <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-6">2</div>
+                    <h3 class="text-xl font-bold mb-4">On-Site Service</h3>
+                    <p class="text-gray-600">Our expert technician comes to your location at scheduled time</p>
+                </div>
+                <div class="step-card bg-gray-50 p-8 rounded-xl text-center border border-gray-100">
+                    <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-6">3</div>
+                    <h3 class="text-xl font-bold mb-4">Perfect Visibility</h3>
+                    <p class="text-gray-600">Enjoy crystal clear headlights and perfectly functioning DRLs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Before/After Gallery -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Transformation Gallery</h2>
+            <div class="gallery-grid grid gap-6">
+                <div class="bg-white rounded-xl overflow-hidden shadow-md">
+                    <div class="relative pb-[75%]">
+                        <div class="absolute inset-0 flex">
+                            <div class="w-1/2 p-2">
+                                <div class="bg-gray-200 border-2 border-dashed rounded-xl w-full h-full"></div>
+                                <p class="text-center mt-2 font-bold">Before</p>
+                            </div>
+                            <div class="w-1/2 p-2">
+                                <div class="bg-gray-300 border-2 border-dashed rounded-xl w-full h-full"></div>
+                                <p class="text-center mt-2 font-bold">After</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold">Toyota Camry 2015</h3>
+                        <p class="text-gray-600">Full headlight restoration</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-md">
+                    <div class="relative pb-[75%]">
+                        <div class="absolute inset-0 flex">
+                            <div class="w-1/2 p-2">
+                                <div class="bg-gray-200 border-2 border-dashed rounded-xl w-full h-full"></div>
+                                <p class="text-center mt-2 font-bold">Before</p>
+                            </div>
+                            <div class="w-1/2 p-2">
+                                <div class="bg-gray-300 border-2 border-dashed rounded-xl w-full h-full"></div>
+                                <p class="text-center mt-2 font-bold">After</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold">Honda Accord 2018</h3>
+                        <p class="text-gray-600">DRL repair & restoration</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-md">
+                    <div class="relative pb-[75%]">
+                        <div class="absolute inset-0 flex">
+                            <div class="w-1/2 p-2">
+                                <div class="bg-gray-200 border-2 border-dashed rounded-xl w-full h-full"></div>
+                                <p class="text-center mt-2 font-bold">Before</p>
+                            </div>
+                            <div class="w-1/2 p-2">
+                                <div class="bg-gray-300 border-2 border-dashed rounded-xl w-full h-full"></div>
+                                <p class="text-center mt-2 font-bold">After</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold">Ford Explorer 2020</h3>
+                        <p class="text-gray-600">Headlight polishing & sealing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="service-card bg-gray-50 p-6 rounded-xl border border-gray-100 transition-all">
+                    <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center text-white text-xl mb-4">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Headlight Restoration</h3>
+                    <p class="text-gray-600 mb-4">Professional polishing and UV protection to restore clarity</p>
+                    <span class="font-bold text-primary">From ₦15,000</span>
+                </div>
+                <div class="service-card bg-gray-50 p-6 rounded-xl border border-gray-100 transition-all">
+                    <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center text-white text-xl mb-4">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">DRL Repair</h3>
+                    <p class="text-gray-600 mb-4">Fix faulty Daytime Running Lights with OEM-quality parts</p>
+                    <span class="font-bold text-primary">From ₦25,000</span>
+                </div>
+                <div class="service-card bg-gray-50 p-6 rounded-xl border border-gray-100 transition-all">
+                    <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center text-white text-xl mb-4">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">DRL Recoding</h3>
+                    <p class="text-gray-600 mb-4">Software updates and coding for DRL functionality</p>
+                    <span class="font-bold text-primary">From ₦10,000</span>
+                </div>
+                <div class="service-card bg-gray-50 p-6 rounded-xl border border-gray-100 transition-all">
+                    <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center text-white text-xl mb-4">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Full Replacement</h3>
+                    <p class="text-gray-600 mb-4">Complete headlight/DRL unit replacement with warranty</p>
+                    <span class="font-bold text-primary">From ₦45,000</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section class="py-16 bg-gradient-to-br from-blue-50 to-cyan-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/2 bg-primary text-white p-8">
+                        <h2 class="text-3xl font-bold mb-6">Book Your Service</h2>
+                        <p class="mb-4"><i class="fas fa-check-circle text-secondary mr-2"></i> Free inspection & quote</p>
+                        <p class="mb-4"><i class="fas fa-check-circle text-secondary mr-2"></i> Mobile service - we come to you</p>
+                        <p class="mb-4"><i class="fas fa-check-circle text-secondary mr-2"></i> 6-month warranty on all services</p>
+                        <div class="mt-8">
+                            <h3 class="font-bold text-xl mb-4">Contact Us</h3>
+                            <p class="flex items-center mb-2"><i class="fas fa-phone mr-3"></i> +234 812 345 6789</p>
+                            <p class="flex items-center"><i class="fas fa-envelope mr-3"></i> service@drivebrite.ng</p>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 p-8">
+                        <form id="bookingForm" class="space-y-4" netlify>
+                            <div>
+                                <label class="block text-gray-700 mb-2" for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 mb-2" for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 mb-2" for="email">Email (Optional)</label>
+                                <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 mb-2" for="car">Car Model</label>
+                                <input type="text" id="car" name="car" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="e.g. Toyota Camry 2015">
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 mb-2" for="service">Service Needed</label>
+                                <select id="service" name="service" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                                    <option value="">Select Service</option>
+                                    <option value="restoration">Headlight Restoration</option>
+                                    <option value="drl-repair">DRL Repair</option>
+                                    <option value="drl-coding">DRL Recoding</option>
+                                    <option value="replacement">Full Replacement</option>
+                                    <option value="multiple">Multiple Services</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="w-full bg-primary hover:bg-blue-800 text-white font-bold py-3 px-4 rounded-lg transition duration-300">
+                                Book Now
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp CTA -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <a href="#" class="bg-[#25D366] hover:bg-[#128C7E] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition duration-300">
+            <i class="fab fa-whatsapp text-2xl"></i>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4 flex items-center">
+                        <i class="fas fa-car mr-2 text-secondary"></i> DriveBrite
+                    </h3>
+                    <p class="text-gray-400">Professional headlight and DRL restoration services across Nigeria.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Services</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Gallery</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400">Headlight Restoration</li>
+                        <li class="text-gray-400">DRL Repair</li>
+                        <li class="text-gray-400">DRL Recoding</li>
+                        <li class="text-gray-400">Full Replacement</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Contact</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-start text-gray-400"><i class="fas fa-map-marker-alt mt-1 mr-3"></i> Lagos, Nigeria</li>
+                        <li class="flex items-center text-gray-400"><i class="fas fa-phone mr-3"></i> +234 812 345 6789</li>
+                        <li class="flex items-center text-gray-400"><i class="fas fa-envelope mr-3"></i> service@drivebrite.ng</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500">
+                <p>&copy; 2025 DriveBrite. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Form handling script -->
+    <script>
+        document.getElementById('bookingForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Form data collection
+            const formData = {
+                name: document.getElementById('name').value,
+                phone: document.getElementById('phone').value,
+                email: document.getElementById('email').value || 'N/A',
+                car: document.getElementById('car').value,
+                service: document.getElementById('service').value,
+                timestamp: new Date().toISOString()
+            };
+
+            // FormSubmit.co integration
+            fetch('https://formsubmit.co/ajax/kashaout@gmail.com', {
+                method: 'POST',
+                headers: { 
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: formData.name,
+                    phone: formData.phone,
+                    email: formData.email,
+                    car: formData.car,
+                    service: formData.service,
+                    _subject: 'New DriveBrite Booking',
+                    _template: 'table'
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Email sent:', data);
+                // Show success message
+                alert('Thank you! We will contact you shortly.');
+                document.getElementById('bookingForm').reset();
+            })
+            .catch(error => console.error('Email error:', error));
+
+            // Google Sheets integration (webhook simulation)
+            fetch('https://hook.us1.make.com/xxxxxxxxxxxxx', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => {
+                console.log('CRM logged:', response);
+            })
+            .catch(error => console.error('CRM error:', error));
+        });
+    </script>
+</body>
+</html>
